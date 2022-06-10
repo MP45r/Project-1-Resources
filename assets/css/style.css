@@ -1,0 +1,60 @@
+:root {
+  --primary-dark-bg-color: #0d1117;
+  --secondary-dark-bg-color: #161B22;
+  --primary-dark-text-color: azure;
+  --primary-light-bg-color: azure;
+  --primary-light-text-color: #0d1117;
+  --secondary-light-bg-color: #577daf;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spline Sans Mono', monospace;
+}
+
+.dark-theme {
+  background-color: var(--primary-dark-bg-color);
+  color: var(--primary-dark-text-color);
+}
+/**
+#0d1117 Primary
+#161B22
+#0D1117
+#DDD
+#0D1856
+#6B80FA
+#484F58
+#577daf
+**/
+.light-theme {
+  background-color: azure;
+  color: var(--primary-light-text-color);
+}
+
+.light-bulb-dark {
+  fill: yellow;
+}
+.light-bulb-light {
+  fill: #0d1117;
+}
+.pointer {
+  cursor: pointer;
+}
+
+header {
+  padding: 35px 35px;
+}
+.header-dark {
+  background-color: var(--secondary-dark-bg-color);
+}
+.header-light {
+  background-color: var(--secondary-light-bg-color);
+}
+
+#owner {
+  
+}
