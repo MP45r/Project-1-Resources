@@ -4,7 +4,7 @@
   --primary-dark-text-color: azure;
   --primary-light-bg-color: azure;
   --primary-light-text-color: #0d1117;
-  --secondary-light-bg-color: #577daf;
+  --secondary-light-bg-color: #7693b8;
 }
 * {
   margin: 0;
@@ -34,7 +34,12 @@ body {
   background-color: azure;
   color: var(--primary-light-text-color);
 }
-
+#light-bulb {
+  /* margin-left: 20px; */
+}
+#light-bulb:hover {
+  filter:contrast(200%) brightness(40%);
+}
 .light-bulb-dark {
   fill: yellow;
 }
@@ -55,6 +60,70 @@ header {
   background-color: var(--secondary-light-bg-color);
 }
 
-#owner {
+/* #owner {
   
+} */
+
+.linkedin {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.gmail {
+  text-decoration: none;
+}
+.gmail:hover {
+  filter:contrast(200%) brightness(40%);
+}
+.linkedin:hover {
+  filter:contrast(200%) brightness(40%);
+}
+#about {
+  padding: 40px 2%;
+  margin: 5% 15%;
+  border: 2px solid var(--secondary-dark-bg-color);
+  border-radius: 30px;
+}
+.about-dark {
+  background-color: var(--secondary-dark-bg-color);
+}
+.about-light {
+  background-color: var(--secondary-light-bg-color);
+}
+#about img {
+  border: 1px solid var(--primary-dark-bg-color);
+  border-radius: 50%;
+  /* padding-left: 2em; */
+  margin-right: 2em;
+}
+#blog-posts {
+  padding: 40px 2%;
+  margin: 5% 15%;
+  border: 2px solid var(--secondary-dark-bg-color);
+  border-radius: 30px;
+}
+.blog-posts-dark {
+  background-color: var(--secondary-dark-bg-color);
+}
+.blog-posts-light {
+  background-color: var(--secondary-light-bg-color);
+}
+#blog-posts ul li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+.post {
+  border: 2px solid var(--secondary-dark-bg-color);
+  padding: 20px 2%; 
+  border-radius: 30px;
+}
+
+.post img {
+  
+  /* padding-left: 2em; */
+  border: 2px solid var(--secondary-dark-bg-color);
+  border-radius: 30px;
+  height:300px;
+  width: 40%;
+  float: left;
+  margin-right: 20px;
 }
